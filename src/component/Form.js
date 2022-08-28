@@ -45,7 +45,10 @@ class Form extends React.Component {
   }
   render() {
     return (
-      <div>
+
+      <div style={{ margin: '15px' ,backgroundImage : "URL('https://www.concettolabs.com/blog/wp-content/uploads/2018/04/banner4.jpg')" , width:'1300px' , height:'780px'}}>
+        <h1>Location App</h1>
+
         <form onSubmit={this.getLocationData}>
           <input type="text" name="city" placeholder="Enter city name" />
           <input type="submit" name="Explore!" value="Explore" />
@@ -58,7 +61,7 @@ class Form extends React.Component {
 
           {this.state.errFlag && <h4>Error : {this.state.error} </h4>}
 
-          {this.state.mapFlag && <div class="z-depth-1-half map-container" style={{ height: '5px', width: '5px', overflow: 'hidden', padding: '56.25%', position: 'relative' }}>
+          {this.state.mapFlag && <div class="z-depth-1-half map-container" style={{ height: '50px', width: '50px', overflow: 'hidden', padding: '56.25%', position: 'relative' }}>
             <iframe title=" " src={`https://maps.locationiq.com/v3/staticmap?key=pk.e91e9438da6fec75d64600ad5f11c625&center=${this.state.lat},${this.state.lon}`} frameborder="10"
               style={{ border: '1', left: '5px', top: '5px', height: '620px', width: '620px', position: 'absolute' }} allowfullscreen />
           </div>}
