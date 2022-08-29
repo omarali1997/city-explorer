@@ -1,32 +1,29 @@
-# city-explorer
+# City Explorer
 
 **Author**: Omar Ali
-**Version**: 1.0.0
+**Version :** 1.0.0
 
 ## Overview
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+![Request Response Cycle](./src/api.png)
+
+the app is used to display a specific location and its latitude and longitud
 
 ## Getting Started
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+you only need to write a city that you want it 
 
 ## Architecture
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
-
-## Change Log
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
-
-08-2022 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+this app has been created using React.js
 
 ## Credit and Collaborations
-<!-- Give credit (and a link) to other people or resources that helped you build this application. -->
 
+## Time Estimates
 
-Name of feature: ________________________________
+**Name of feature :** 
 
-Estimate of time needed to complete: _____
+**Estimate of time needed to complete :** 3 hours
 
-Start time: _____
+**Start time :** 7:30pm
 
-Finish time: _____
+**Finish time :** 11:30pm
 
-Actual time needed to complete: _____
+**Actual time needed to complete :** 5 hours
